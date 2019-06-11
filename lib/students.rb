@@ -9,7 +9,7 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
-  SELECT AVG(net_worth) AS average_net_worth FROM cats;
+  "SELECT AVG(net_worth) FROM cats;"
 end
 
 def total_tardies_for_all_students
